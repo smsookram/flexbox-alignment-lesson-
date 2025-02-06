@@ -1,0 +1,41 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container1 */
+.container1{
+    display: flex;
+    background-color: gray;
+    padding: 20px;
+    margin: 25px;
+    border: 8px solid pink;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/*Container 2 */
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    padding: 10px;
+    margin: 15px;
+    border: 4px solid gray;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Box Styling */
+.box {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+    margin: 10px;
+}
